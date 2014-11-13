@@ -1,0 +1,32 @@
+
+<p>
+  <strong>Title:</strong>
+  <%= @movie.title %>
+</p>
+
+<p>
+  <strong>Length:</strong>
+  <%= @movie.length %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @movie.description %>
+</p>
+<p>
+  <strong>Release Date:</strong>
+  <%= @movie.release_date_theater %>
+</p>
+
+<p>
+  <strong>Studio:</strong>
+  <%= @movie.studio %>
+</p>
+
+<p>
+  <strong>Director:</strong>
+  <%= @movie.director %>
+</p>
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Destroy', @movie, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back', movies_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  length: MyString
+  release_date_theater: MyString
+  release_date_home: MyString
+  studio: MyString
+  director: MyString
+
+two:
+  title: MyString
+  length: MyString
+  release_date_theater: MyString
+  release_date_home: MyString
+  studio: MyString
+  director: MyString
